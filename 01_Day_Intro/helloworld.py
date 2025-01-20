@@ -1,4 +1,6 @@
-# Day 1 - 30DaysOfPython Challenge
+# Day 1: 30 Days of python programming
+
+import math
 
 print(2 + 3)             # addition(+)
 print(3 - 1)             # subtraction(-)
@@ -17,3 +19,9 @@ print(type([1, 2, 3]))   # List
 print(type({'name':'Asabeneh'})) # Dictionary
 print(type({9.8, 3.14, 2.7}))    # Set
 print(type((9.8, 3.14, 2.7)))    # Tuple
+
+# Euclidian distance
+a = math.pow(2-10, 2)
+b = math.pow(3-8, 2)
+c = math.sqrt(a+b)
+print(c)
