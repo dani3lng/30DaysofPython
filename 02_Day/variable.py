@@ -41,3 +41,6 @@ is_true = 'Yes'
 is_light_on = 'Yes'
 
 # Declare multiple variable on one line
+
+full_name, age, city, country, is_married = 'John Doe', '25', 'Portland', 'United States', 'No'
+print(full_name, age, city, country, is_married)
