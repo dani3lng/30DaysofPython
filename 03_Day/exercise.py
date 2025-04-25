@@ -36,12 +36,22 @@ x_intercept = (0+2)/2
 print(x_intercept)
 y_intercept = (2*0) - 2
 print(y_intercept)
-print(f"The x-intercept is (0,1) and the y-intercept is (-2,0)")
-slope = ((-2*2) - (-2*1)) / (1*2 - 1*1)
-
+print(f"The x-intercept is (1,0) and the y-intercept is (0,-2)")
+slope_eight = (-2 - 0)/(0 - 1)
+print(f"The slope is {slope_eight}")
 # Slope is (m = y2-y1/x2-x1). Find the slope and Euclidean distance between point (2, 2) and point (6,10)
+slope_nine = (10 - 2)/(6 - 2)
+print(f"The slope for (2, 2) and (6, 10) is {slope_nine})")
 # Compare the slopes in tasks 8 and 9.
+print(f"The slope of task 8 is {slope_eight} and the slope of task 9 is {slope_nine}")
 # Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
+x = 0
+y = x^2 + (6*x) + 9
+while y != 0:
+    x = 0
+    y = x^2 + (6*x) + 9
+    x += 1
+print(f"Y is equal to zero when x is {x}")
 # Find the length of 'python' and 'dragon' and make a falsy comparison statement.
 # Use and operator to check if 'on' is found in both 'python' and 'dragon'
 # I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
