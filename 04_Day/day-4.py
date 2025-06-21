@@ -26,3 +26,27 @@ print(company.title())
 # Print the length of the company string using len() method and print().
 
 print(len(company))
+
+# Change all the characters to uppercase letters using upper() method.
+
+print(company.upper())
+
+# Change all the characters to lowercase letters using lower() method.
+
+print(company.lower())
+
+# Use capitalize(), title(), swapcase() methods to format the value of the string Coding For All.
+
+string_five = 'Coding For All'
+print(string_five.capitalize())
+print(string_five.title())
+print(string_five.swapcase())
+
+# Cut(slice) out the first word of Coding For All string.
+
+string_five_slice = string_five[6:]
+
+# Check if Coding For All string contains a word Coding using the method index, find or other methods.
+
+print(string_five.index('Coding'))
+print(string_five.find('Coding'))
